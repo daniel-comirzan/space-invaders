@@ -9,7 +9,9 @@ ArrayList<Alien> aliens = new ArrayList<Alien>();
 
 void setup() {
   size(500, 500);
-  
+
+  // TODO Aici nu am terminat de lucrat. 
+  // Poti sa te joci sa vezi cum il faci sa arate toate bilele
   for (int i=1; i<= width; i+= alienCount) {
     aliens.add(new Alien(int(hoogte / alienCount) * i, 20));
   }
